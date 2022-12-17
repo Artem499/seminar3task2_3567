@@ -21,6 +21,8 @@ class calculation
 
             Console.Clear();
 
+            Console.WriteLine("Программа принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N");
+
             Console.Write("Enter the number : ");
             number.N = Convert.ToInt32(Console.ReadLine());
 
